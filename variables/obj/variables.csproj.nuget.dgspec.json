@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jonathanmarquez/Projects/variables/variables/variables.csproj": {}
+    "/Users/jonathanmarquez/Desktop/GitHubSchool/variables/variables/variables.csproj": {}
   },
   "projects": {
-    "/Users/jonathanmarquez/Projects/variables/variables/variables.csproj": {
+    "/Users/jonathanmarquez/Desktop/GitHubSchool/variables/variables/variables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jonathanmarquez/Projects/variables/variables/variables.csproj",
+        "projectUniqueName": "/Users/jonathanmarquez/Desktop/GitHubSchool/variables/variables/variables.csproj",
         "projectName": "variables",
-        "projectPath": "/Users/jonathanmarquez/Projects/variables/variables/variables.csproj",
+        "projectPath": "/Users/jonathanmarquez/Desktop/GitHubSchool/variables/variables/variables.csproj",
         "packagesPath": "/Users/jonathanmarquez/.nuget/packages/",
-        "outputPath": "/Users/jonathanmarquez/Projects/variables/variables/obj/",
+        "outputPath": "/Users/jonathanmarquez/Desktop/GitHubSchool/variables/variables/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jonathanmarquez/.config/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
